@@ -7,6 +7,7 @@
     <owners>Erik Sohns</owners>
     <title>libreoffice-sdk</title>
     <authors>LibreOffice developers</authors>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chocolatey-community/chocolatey-packages@edba4a5849ff756e767cba86641bea97ff5721fe/icons/libreoffice.svg</iconUrl>
     <projectUrl>https://www.libreoffice.org</projectUrl>
     <licenseUrl>https://www.libreoffice.org/download/license</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
