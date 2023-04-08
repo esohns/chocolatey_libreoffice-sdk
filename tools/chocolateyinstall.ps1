@@ -1,7 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop'
 
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-. $toolsDir\helpers.ps1
 
 $packageArgs = @{
   packageName            = 'libreoffice-sdk'
@@ -16,12 +15,6 @@ $packageArgs = @{
   silentArgs             = '/qn /passive /norestart /l*v "{0}"' -f "$($env:TEMP)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).MsiInstall.log"
   validExitCodes         = @(0,3010)
   softwareName           = 'LibreOffice SDK*'
-}
-
-if (-not (IsUrlValid $packageArgs.url)) {
-  $exactVersion = GetLibOExactVersion $packageArgs.version
-  $packageArgs.url = $exactVersion.Url32
-  $packageArgs.url64bit = $exactVersion.Url64
 }
 
 Install-ChocolateyPackage @packageArgs
