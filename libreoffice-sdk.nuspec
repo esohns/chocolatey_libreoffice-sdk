@@ -2,10 +2,10 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>libreoffice-sdk</id>
-    <version>24.8.4</version>
+    <version>25.2.3</version>
     <packageSourceUrl>https://github.com/esohns/chocolatey_libreoffice-sdk</packageSourceUrl>
     <owners>Erik Sohns</owners>
-    <title>libreoffice-sdk</title>
+    <title>Libreoffice SDK</title>
     <authors>LibreOffice developers</authors>
     <iconUrl>https://cdn.jsdelivr.net/gh/chocolatey-community/chocolatey-packages@edba4a5849ff756e767cba86641bea97ff5721fe/icons/libreoffice.svg</iconUrl>
     <projectUrl>https://www.libreoffice.org</projectUrl>
@@ -14,9 +14,9 @@
     <projectSourceUrl>https://www.libreoffice.org/about-us/source-code</projectSourceUrl>
     <docsUrl>https://documentation.libreoffice.org/en/english-documentation</docsUrl>
     <tags>libreoffice office cross-platform foss sdk</tags>
-    <summary>LibreOffice SDK 24.8.4</summary>
+    <summary>LibreOffice SDK 25.2.3</summary>
     <description>LibreOffice is the free power-packed Open Source personal productivity suite for Windows, macOS and Linux, that gives you six feature-rich applications for all your document production and data processing needs. This installs the SDK for development.</description>
-    <releaseNotes>nothing special</releaseNotes>
+    <releaseNotes>N/A</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
